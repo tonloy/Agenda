@@ -59,7 +59,7 @@
             this.txbNombres.Location = new System.Drawing.Point(21, 29);
             this.txbNombres.Name = "txbNombres";
             this.txbNombres.Size = new System.Drawing.Size(223, 20);
-            this.txbNombres.TabIndex = 1;
+            this.txbNombres.TabIndex = 0;
             // 
             // dtpNacimiento
             // 
@@ -75,7 +75,7 @@
             this.txbApellidos.Location = new System.Drawing.Point(21, 71);
             this.txbApellidos.Name = "txbApellidos";
             this.txbApellidos.Size = new System.Drawing.Size(223, 20);
-            this.txbApellidos.TabIndex = 4;
+            this.txbApellidos.TabIndex = 1;
             // 
             // label2
             // 
@@ -91,7 +91,7 @@
             this.txbCorreo.Location = new System.Drawing.Point(21, 155);
             this.txbCorreo.Name = "txbCorreo";
             this.txbCorreo.Size = new System.Drawing.Size(223, 20);
-            this.txbCorreo.TabIndex = 6;
+            this.txbCorreo.TabIndex = 3;
             // 
             // label3
             // 
@@ -107,7 +107,7 @@
             this.txbTelefono.Location = new System.Drawing.Point(21, 197);
             this.txbTelefono.Name = "txbTelefono";
             this.txbTelefono.Size = new System.Drawing.Size(115, 20);
-            this.txbTelefono.TabIndex = 8;
+            this.txbTelefono.TabIndex = 4;
             // 
             // label4
             // 
@@ -132,7 +132,7 @@
             this.btnGuardar.Location = new System.Drawing.Point(92, 241);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
-            this.btnGuardar.TabIndex = 10;
+            this.btnGuardar.TabIndex = 5;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
@@ -142,7 +142,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(169, 241);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);

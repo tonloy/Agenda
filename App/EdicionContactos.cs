@@ -33,17 +33,17 @@ namespace App
             Notificador.Clear();
             if(txbNombres.TextLength==0)
             {
-                Notificador.SetError(txbNombres, "Este campo no puede quedar vacio.");
+                Notificador.SetError(txbNombres, "El nombre no puede quedar vacio.");
                 Validado = false;
             }
             if (txbApellidos.TextLength == 0)
             {
-                Notificador.SetError(txbApellidos, "Este campo no puede quedar vacio.");
+                Notificador.SetError(txbApellidos, "El apellido no puede quedar vacio.");
                 Validado = false;
             }
             if (txbTelefono.TextLength == 0)
             {
-                Notificador.SetError(txbTelefono, "Este campo no puede quedar vacio.");
+                Notificador.SetError(txbTelefono, "El teléfono no puede quedar vacio.");
                 Validado = false;
             }
             return Validado;
